@@ -64,46 +64,7 @@ a.active,a:hover{
 #check{
     display: none;
 }
-@media (max-width: 952px){
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: rgb(244, 241, 241);
-      
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a:hover,a.active{
-        background: none;
-        color: #FF5400;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-}
+
 /* <!-- header-area-end --> */
 
 /* <!-- banner-area-start --> */
@@ -494,8 +455,6 @@ a.active,a:hover{
     border-radius: 21px;
 }
 
-.form-img {}
-
 .contact-form h2 {
     font-size: 35px;
     /* margin-top: 5%; */
@@ -557,7 +516,7 @@ a.active,a:hover{
     box-shadow: 0 0 2px 0;
     margin-top: -8%;
 }
-/* <!-- ftoor area end --> */
+/* <!-- fotter area end --> */
 
 .choose-col.bg_grn {
     background: #F3FDFC;
@@ -565,8 +524,6 @@ a.active,a:hover{
     width: 57%;
     height: 21em;
     border-radius: 10px;
-}
-header.Tour h2 {
 }
 
 header.Tour p {
@@ -620,13 +577,7 @@ header.Tour h2 {
 }
  @media screen and (max-width:576px){
     
-        .nav-container .logo{
-            font-size: 30px;
-            padding-left: 50px;
-        }
-        .items-container ul li a{
-            font-size: 16px;
-        }
+        
        .banner{
         width: 100%;
         background-size: cover;
@@ -728,44 +679,51 @@ flex-direction: column;
     text-align: center;
     margin: 1% -20%;
 }
-.choose-col2.cos_bg{
-    
-width: 100%;
-    
+.choose-col2.cos_bg{    
+width: 100%;    
 margin: -13% -24%;
 }
 .footer-logo{
-    
-flex-direction: column;
+    flex-direction: column;
 }
       }
-@media screen and (min-width:576px) and (max-width:992px){
-    .checkbtn{
-        display: block;
+      @media (max-width: 952px){
+        label.logo{
+            font-size: 30px;
+            padding-left: 50px;
+        }
+        nav ul li a{
+            font-size: 16px;
+        }
     }
-    .items-container ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #e3e3e3;
-        top: 80px;
-        left: 0;
-        text-align: center;
-        transition: all .5s;
+    @media (max-width: 858px){
+        .checkbtn{
+            display: block;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgb(244, 241, 241);
+          
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #FF5400;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
     }
-    .items-container ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    .items-container ul li a{
-        font-size: 20px;
-    }
-    .items-container ul li a:hover{
-        color: #FF5400;
-        background: none;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-}  
